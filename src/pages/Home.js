@@ -9,7 +9,9 @@ import Carousel from '../components/Carousel';
 const Container = styled.div`
   padding: 2rem;
 `;
-
+const CarouselContainer = styled.div`
+  padding: 2rem;
+`;
 const Section = styled.section`
   margin-bottom: 2rem;
 `;
@@ -19,12 +21,6 @@ const SectionTitle = styled.h2`
 `;
 
 const ServicesContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-`;
-
-const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
