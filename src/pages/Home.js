@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ServiceCard from '../components/ServiceCard';
-import TeamMemberCard from '../components/TeamMemberCard';
 import TestimonialCard from '../components/TestimonialCard';
-import GalleryImage from '../components/GalleryImage';
 import Carousel from '../components/Carousel';
 
 const Container = styled.div`
@@ -26,11 +24,7 @@ const ServicesContainer = styled.div`
   justify-content: space-around;
 `;
 
-const TeamContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-`;
+
 
 const TestimonialsContainer = styled.div`
   display: flex;
@@ -38,10 +32,6 @@ const TestimonialsContainer = styled.div`
   justify-content: space-around;
 `;
 
-const GalleryContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-`;
 
 const Home = () => (
   <Container>
