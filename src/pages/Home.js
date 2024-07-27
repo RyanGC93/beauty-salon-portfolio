@@ -4,6 +4,7 @@ import ServiceCard from '../components/ServiceCard';
 import TeamMemberCard from '../components/TeamMemberCard';
 import TestimonialCard from '../components/TestimonialCard';
 import GalleryImage from '../components/GalleryImage';
+import Carousel from '../components/Carousel';
 
 const Container = styled.div`
   padding: 2rem;
@@ -42,6 +43,12 @@ const GalleryContainer = styled.div`
 
 const Home = () => (
   <Container>
+    <Section>
+        <SectionTitle>Salon Name Placeholder</SectionTitle>
+        <CarouselContainer>
+            <Carousel/>
+        </CarouselContainer>
+    </Section>
     <Section>
       <SectionTitle>Our Services</SectionTitle>
       <ServicesContainer>
