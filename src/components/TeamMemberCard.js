@@ -20,11 +20,12 @@ const Image = styled.img`
   margin-bottom: 1rem;
 `;
 
-const TeamMemberCard = ({ name, role, image }) => (
+const TeamMemberCard = ({ name, role, image,description }) => (
   <Card>
     <Image src={image} alt={name} />
     <h3>{name}</h3>
     <p>{role}</p>
+    <p>{description}</p>
   </Card>
 );
 
