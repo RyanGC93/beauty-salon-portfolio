@@ -8,6 +8,9 @@ import Services from './pages/Services';
 import Team from './pages/Team';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import AboutUs from './pages/AboutUs';
+import Locations from './pages/Locations';
+
 
 const App = () => (
   <Router>
@@ -19,6 +22,8 @@ const App = () => (
       <Route path="/team" element={<Team/>} />
       <Route path="/gallery" element={<Gallery/>} />
       <Route path="/contact" element={<Contact/>} />
+      <Route path="/aboutus" element={<AboutUs/>} />
+      <Route path="/locations" element={<Locations/>} />
     </Routes>
     <Footer />
   </Router>
