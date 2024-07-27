@@ -83,7 +83,6 @@ const Home = () => (
                     image="https://images.unsplash.com/photo-1641260774125-04d527b376a5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njd8fGhlYWRzaG90c3xlbnwwfHwwfHx8MA%3D%3D"
                     description="Charlie is an expert in facial treatments with a focus on natural and holistic skincare. His personalized approach helps clients achieve radiant, healthy skin through customized facials."
                 />
-
             </TeamContainer>
         </Section>
 
@@ -97,15 +96,6 @@ const Home = () => (
                 <TestimonialCard name="Emily Davis" testimonial="Creative designs and professional service." />
             </TestimonialsContainer>
 
-        </Section>
-
-        <Section>
-            <SectionTitle>Gallery</SectionTitle>
-            <GalleryContainer>
-                <GalleryImage src="/images/gallery1.jpg" alt="Gallery Image 1" />
-                <GalleryImage src="/images/gallery2.jpg" alt="Gallery Image 2" />
-                <GalleryImage src="/images/gallery3.jpg" alt="Gallery Image 3" />
-            </GalleryContainer>
         </Section>
     </Container>
 );
