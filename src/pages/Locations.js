@@ -67,44 +67,68 @@ const Locations = () => {
     <Container>
       <LocationCard>
         <ImageContainer>
-          <Image src="https://images.unsplash.com/photo-1626383137804-ff908d2753a2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2Fsb24lMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D" alt="New York Office" />
+          <Image
+            src="https://images.unsplash.com/photo-1626383137804-ff908d2753a2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2Fsb24lMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D"
+            alt="New York Office"
+          />
         </ImageContainer>
         <Details>
           <LocationName>New York Office</LocationName>
-          <Description>Our New York office is located in the heart of Manhattan, providing easy access to clients and partners.</Description>
+          <Description>
+            Our New York office is located in the heart of Manhattan, providing
+            easy access to clients and partners.
+          </Description>
           <Address>123 Fifth Avenue, New York, NY 10001</Address>
           <Phone>(212) 555-1234</Phone>
         </Details>
       </LocationCard>
       <LocationCard>
         <ImageContainer>
-          <Image src="https://images.unsplash.com/photo-1695527081848-1e46c06e6458?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHNhbG9uJTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D" alt="Los Angeles Office" />
+          <Image
+            src="https://images.unsplash.com/photo-1695527081848-1e46c06e6458?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHNhbG9uJTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D"
+            alt="Los Angeles Office"
+          />
         </ImageContainer>
         <Details>
           <LocationName>Los Angeles Office</LocationName>
-          <Description>Visit our Los Angeles office for all your needs in the West Coast. Conveniently located downtown.</Description>
+          <Description>
+            Visit our Los Angeles office for all your needs in the West Coast.
+            Conveniently located downtown.
+          </Description>
           <Address>456 Sunset Boulevard, Los Angeles, CA 90028</Address>
           <Phone>(323) 555-5678</Phone>
         </Details>
       </LocationCard>
       <LocationCard>
         <ImageContainer>
-          <Image src="https://images.unsplash.com/photo-1695527081728-e3a42f0ce261?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHNhbG9uJTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D" alt="Chicago Office" />
+          <Image
+            src="https://images.unsplash.com/photo-1695527081728-e3a42f0ce261?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHNhbG9uJTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D"
+            alt="Chicago Office"
+          />
         </ImageContainer>
         <Details>
           <LocationName>Chicago Office</LocationName>
-          <Description>Our Chicago office is strategically located to serve the Midwest region efficiently.</Description>
+          <Description>
+            Our Chicago office is strategically located to serve the Midwest
+            region efficiently.
+          </Description>
           <Address>789 Michigan Avenue, Chicago, IL 60611</Address>
           <Phone>(312) 555-9101</Phone>
         </Details>
       </LocationCard>
       <LocationCard>
         <ImageContainer>
-          <Image src="https://images.unsplash.com/photo-1720358787956-85c0bd0a8dbb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHNhbG9uJTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D" alt="Miami Office" />
+          <Image
+            src="https://images.unsplash.com/photo-1720358787956-85c0bd0a8dbb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHNhbG9uJTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D"
+            alt="Miami Office"
+          />
         </ImageContainer>
         <Details>
           <LocationName>Miami Office</LocationName>
-          <Description>The Miami office offers a vibrant environment for our clients in the Southeast.</Description>
+          <Description>
+            The Miami office offers a vibrant environment for our clients in the
+            Southeast.
+          </Description>
           <Address>101 Ocean Drive, Miami, FL 33139</Address>
           <Phone>(305) 555-1213</Phone>
         </Details>

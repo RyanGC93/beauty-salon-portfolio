@@ -11,19 +11,18 @@ import Contact from './pages/Contact';
 import AboutUs from './pages/AboutUs';
 import Locations from './pages/Locations';
 
-
 const App = () => (
   <Router>
     <GlobalStyles />
     <Header />
     <Routes>
-      <Route path="/" exact element={<Home/>} />
-      <Route path="/services" element={<Services/>} />
-      <Route path="/team" element={<Team/>} />
-      <Route path="/gallery" element={<Gallery/>} />
-      <Route path="/contact" element={<Contact/>} />
-      <Route path="/aboutus" element={<AboutUs/>} />
-      <Route path="/locations" element={<Locations/>} />
+      <Route path="/" exact element={<Home />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/team" element={<Team />} />
+      <Route path="/gallery" element={<Gallery />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="/aboutus" element={<AboutUs />} />
+      <Route path="/locations" element={<Locations />} />
     </Routes>
     <Footer />
   </Router>
