@@ -24,6 +24,12 @@ const ServicesContainer = styled.div`
   justify-content: space-around;
 `;
 
+const Container = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+`;
+
 const TeamContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
