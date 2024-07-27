@@ -23,9 +23,15 @@ const LocationCard = styled.div`
   }
 `;
 
-const Image = styled.img`
+const ImageContainer = styled.div`
   width: 100%;
   height: 200px;
+  overflow: hidden;
+`;
+
+const Image = styled.img`
+  width: 100%;
+  height: 100%;
   object-fit: cover;
 `;
 
@@ -60,7 +66,9 @@ const Locations = () => {
   return (
     <Container>
       <LocationCard>
-        <Image src="https://via.placeholder.com/300x200" alt="Location 1" />
+        <ImageContainer>
+          <Image src="https://via.placeholder.com/300x200" alt="New York Office" />
+        </ImageContainer>
         <Details>
           <LocationName>New York Office</LocationName>
           <Description>Our New York office is located in the heart of Manhattan, providing easy access to clients and partners.</Description>
@@ -69,7 +77,9 @@ const Locations = () => {
         </Details>
       </LocationCard>
       <LocationCard>
-        <Image src="https://via.placeholder.com/300x200" alt="Location 2" />
+        <ImageContainer>
+          <Image src="https://via.placeholder.com/300x200" alt="Los Angeles Office" />
+        </ImageContainer>
         <Details>
           <LocationName>Los Angeles Office</LocationName>
           <Description>Visit our Los Angeles office for all your needs in the West Coast. Conveniently located downtown.</Description>
@@ -78,7 +88,9 @@ const Locations = () => {
         </Details>
       </LocationCard>
       <LocationCard>
-        <Image src="https://via.placeholder.com/300x200" alt="Location 3" />
+        <ImageContainer>
+          <Image src="https://via.placeholder.com/300x200" alt="Chicago Office" />
+        </ImageContainer>
         <Details>
           <LocationName>Chicago Office</LocationName>
           <Description>Our Chicago office is strategically located to serve the Midwest region efficiently.</Description>
@@ -87,7 +99,9 @@ const Locations = () => {
         </Details>
       </LocationCard>
       <LocationCard>
-        <Image src="https://via.placeholder.com/300x200" alt="Location 4" />
+        <ImageContainer>
+          <Image src="https://via.placeholder.com/300x200" alt="Miami Office" />
+        </ImageContainer>
         <Details>
           <LocationName>Miami Office</LocationName>
           <Description>The Miami office offers a vibrant environment for our clients in the Southeast.</Description>
