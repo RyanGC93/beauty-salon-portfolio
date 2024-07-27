@@ -14,11 +14,11 @@ const App = () => (
     <GlobalStyles />
     <Header />
     <Routes>
-      <Route path="/" exact component={Home} />
-      <Route path="/services" component={Services} />
-      <Route path="/team" component={Team} />
-      <Route path="/gallery" component={Gallery} />
-      <Route path="/contact" component={Contact} />
+      <Route path="/" exact element={<Home/>} />
+      <Route path="/services" element={<Services/>} />
+      <Route path="/team" element={<Team/>} />
+      <Route path="/gallery" element={<Gallery/>} />
+      <Route path="/contact" element={<Contact/>} />
     </Routes>
     <Footer />
   </Router>
