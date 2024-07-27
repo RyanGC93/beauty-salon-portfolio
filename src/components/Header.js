@@ -90,10 +90,8 @@ const Header = () => {
         <Link to="/">Home</Link>
         <Link to="/services">Services</Link>
         <Link to="/team">Team</Link>
-        <Link to="/gallery">Gallery</Link>
         <Link to="/locations">Locations</Link>
-        <Link to="/aboutus">About Us</Link>
-        <Link to="/contact">Contact</Link>
+        <Link to="/aboutus">About</Link>
       </Nav>
       <Hamburger onClick={toggleMenu}>
         {isOpen ? <FaTimes /> : <FaBars />}
@@ -104,8 +102,7 @@ const Header = () => {
           <Link to="/services" onClick={toggleMenu}>Services</Link>
           <Link to="/team" onClick={toggleMenu}>Team</Link>
           <Link to="/locations" onClick={toggleMenu}>Locations</Link>
-          <Link to="/aboutus" onClick={toggleMenu}>About Us</Link>
-          <Link to="/contact" onClick={toggleMenu}>Contact</Link>
+          <Link to="/aboutus" onClick={toggleMenu}>About</Link>
         </DropdownMenu>
       )}
     </HeaderContainer>
