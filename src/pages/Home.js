@@ -46,7 +46,7 @@ const GalleryContainer = styled.div`
 const Home = () => (
   <Container>
     <Section>
-      <SectionTitle>Salon Name Placeholder</SectionTitle>
+      <SectionTitle>Divine Bliss Salon</SectionTitle>
       <CarouselContainer>
         <Carousel />
       </CarouselContainer>
