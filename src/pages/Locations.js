@@ -67,7 +67,7 @@ const Locations = () => {
     <Container>
       <LocationCard>
         <ImageContainer>
-          <Image src="https://via.placeholder.com/300x200" alt="New York Office" />
+          <Image src="https://images.unsplash.com/photo-1626383137804-ff908d2753a2?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c2Fsb24lMjBpbnRlcmlvcnxlbnwwfHwwfHx8MA%3D%3D" alt="New York Office" />
         </ImageContainer>
         <Details>
           <LocationName>New York Office</LocationName>
@@ -78,7 +78,7 @@ const Locations = () => {
       </LocationCard>
       <LocationCard>
         <ImageContainer>
-          <Image src="https://via.placeholder.com/300x200" alt="Los Angeles Office" />
+          <Image src="https://images.unsplash.com/photo-1695527081848-1e46c06e6458?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHNhbG9uJTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D" alt="Los Angeles Office" />
         </ImageContainer>
         <Details>
           <LocationName>Los Angeles Office</LocationName>
@@ -89,7 +89,7 @@ const Locations = () => {
       </LocationCard>
       <LocationCard>
         <ImageContainer>
-          <Image src="https://via.placeholder.com/300x200" alt="Chicago Office" />
+          <Image src="https://images.unsplash.com/photo-1695527081728-e3a42f0ce261?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHNhbG9uJTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D" alt="Chicago Office" />
         </ImageContainer>
         <Details>
           <LocationName>Chicago Office</LocationName>
@@ -100,7 +100,7 @@ const Locations = () => {
       </LocationCard>
       <LocationCard>
         <ImageContainer>
-          <Image src="https://via.placeholder.com/300x200" alt="Miami Office" />
+          <Image src="https://images.unsplash.com/photo-1720358787956-85c0bd0a8dbb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fHNhbG9uJTIwaW50ZXJpb3J8ZW58MHx8MHx8fDA%3D" alt="Miami Office" />
         </ImageContainer>
         <Details>
           <LocationName>Miami Office</LocationName>
